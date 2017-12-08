@@ -17,7 +17,7 @@ int main()
           	if( fabs(temps[i]) < fabs(pclosest) )
           	{
           		pclosest = temps[i];
-			}        		
+		}        		
         }
         
     printf("%d", pclosest);
